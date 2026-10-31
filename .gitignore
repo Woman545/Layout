@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+cat > .gitignore << 'EOF'
+node_modules/
+database.sqlite
+*.sqlite
+EOF
